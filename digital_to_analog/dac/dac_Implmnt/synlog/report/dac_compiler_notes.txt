@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\rohankarunaratne\LatticeSemi\digital_to_analog\top.v":4:7:4:9|Synthesizing module top in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\rohankarunaratne\LatticeSemi\digital_to_analog\top.v":4:7:4:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\rohankarunaratne\LatticeSemi\digital_to_analog\top.v":4:7:4:9|Selected library: work cell: top view verilog as top level
+

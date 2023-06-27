@@ -1,5 +1,4 @@
 // nightrider LED pattern with buttons to toggle speed
-// v1.5
 /* module */
 module top (hwclk, reset, led1, led2, led3, led4, led5, led6, led7, led8, upButton, downButton);
     /* I/O */
@@ -65,46 +64,27 @@ module top (hwclk, reset, led1, led2, led3, led4, led5, led6, led7, led8, upButt
     end
 
 
-//    always @(posedge counter[20] or posedge reset) begin
-//        if (reset) begin
-//            state <= 5'b00000;
-//       end else begin
-//            state <= state + 1;
-//        end
-//    end
-
-
     /* LED drivers */
-
 	always @(*) begin
 
 	case (state)
-		5'b00000: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b10000000;
-            5'b00001: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b01000000;
-            5'b00010: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00100000;
-            5'b00011: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00010000;
-            5'b00100: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00001000;
-            5'b00101: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000100;
-            5'b00110: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000010;
-            5'b00111: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000001;
+        5'b00000: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b10000000;
+        5'b00001: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b01000000;
+        5'b00010: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00100000;
+        5'b00011: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00010000;
+        5'b00100: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00001000;
+        5'b00101: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000100;
+        5'b00110: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000010;
+        5'b00111: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000001;
 
-            // Reverse direction
-            5'b01000: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000010;
-            5'b01001: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000100;
-            5'b01010: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00001000;
-            5'b01011: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00010000;
-            5'b01100: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00100000;
-            5'b01101: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b01000000;
+        // Reverse direction
+        5'b01000: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000010;
+        5'b01001: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00000100;
+        5'b01010: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00001000;
+        5'b01011: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00010000;
+        5'b01100: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b00100000;
+        5'b01101: {led1, led2, led3, led4, led5, led6, led7, led8} = 8'b01000000;
 	endcase
-
-		//led1 <= speedCounter[18];
-		//led2 <= speedCounter[19];
-		//led3 <= speedCounter[20];
-		//led4 <= speedCounter[21];
-		//led5 <= speedCounter[22];
-		//led6 <= speedCounter[23];
-		//led7 <= speedCounter[24];
-		//led8 <= speedCounter[25];
 	
 	end
 

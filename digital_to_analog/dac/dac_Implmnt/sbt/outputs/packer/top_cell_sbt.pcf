@@ -1,0 +1,8 @@
+ble_pack CONSTANT_ONE_LUT4_LC_32_26_0 { CONSTANT_ONE_LUT4 }
+clb_pack LT_32_26 { CONSTANT_ONE_LUT4_LC_32_26_0 }
+set_location LT_32_26 32 26
+set_io bit3 E14
+set_io bit1 D14
+set_io bit4 F15
+set_io bit2 D15
+set_io bit0 B16

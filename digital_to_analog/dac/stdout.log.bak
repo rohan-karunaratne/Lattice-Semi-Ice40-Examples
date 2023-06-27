@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    ROHANKARUNA560C
+Date:        Mon Jun 26 19:05:48 2023
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch dac_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.srr"
+Running: dac_Implmnt in foreground
+
+Running dac_syn|dac_Implmnt
+
+Running: compile (Compile) on dac_syn|dac_Implmnt
+# Mon Jun 26 19:05:48 2023
+
+Running: compile_flow (Compile Process) on dac_syn|dac_Implmnt
+# Mon Jun 26 19:05:48 2023
+
+Running: compiler (Compile Input) on dac_syn|dac_Implmnt
+# Mon Jun 26 19:05:48 2023
+compiler exited with errors
+Job failed on: dac_syn|dac_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\dac_compiler.srr"
+# Mon Jun 26 19:05:48 2023
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on dac_syn|dac_Implmnt
+Complete: Compile on dac_syn|dac_Implmnt
+Complete: Logic Synthesis on dac_syn|dac_Implmnt
+
+exit status=2
+
+exit status=2
+

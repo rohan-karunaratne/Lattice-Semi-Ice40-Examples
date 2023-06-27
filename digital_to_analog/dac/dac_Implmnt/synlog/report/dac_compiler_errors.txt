@@ -1,0 +1,2 @@
+@E: CS187 :"C:\rohankarunaratne\LatticeSemi\digital_to_analog\top.v":5:4:5:9|Expecting ;
+

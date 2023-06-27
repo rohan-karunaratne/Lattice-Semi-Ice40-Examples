@@ -122,7 +122,6 @@ module top (hwclk, reset, led1, led2, led3, led4, led5, led6, led7, led8, A, B);
 
 
     /* LED drivers */
-
 	always @(*) begin
 
 		led1 <= counter[0];
@@ -135,12 +134,11 @@ module top (hwclk, reset, led1, led2, led3, led4, led5, led6, led7, led8, A, B);
 		led8 <= error;
 
 	end
-
 endmodule	
 
 
 
-
+//Logic: 
 //old:new 0000, +0
 //old:new 0001, -1
 //old:new 0010, +1

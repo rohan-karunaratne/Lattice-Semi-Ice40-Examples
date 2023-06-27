@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_comp.srs  -osyn  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_mult.srs  -log  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\dac_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_comp.srs|io:i|time:1687831646|size:1472|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_mult.srs|io:o|time:1687831647|size:1219|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\dac_multi_srs_gen.srr|io:o|time:1687831647|size:683|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1680399811|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1680399813|size:3947520|exec:1

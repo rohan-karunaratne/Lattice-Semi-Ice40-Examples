@@ -1,0 +1,7 @@
+set_location GND -1 -1 -1 # GND
+set_io bit0_obuf 33 30 0 # ICE_IO
+set_io bit1_obuf 33 31 0 # ICE_IO
+set_io bit2_obuf 33 26 0 # ICE_IO
+set_io bit3_obuf 33 27 1 # ICE_IO
+set_io bit4_obuf 33 22 0 # ICE_IO
+set_location CONSTANT_ONE_LUT4 32 26 0 # SB_LUT4 (LogicCell: LC_0)

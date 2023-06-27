@@ -1,0 +1,36 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:44:35
+
+* File Generated:     Jun 26 2023 19:07:47
+
+* Purpose:            Detailed routing info for each net
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Net : CONSTANT_ONE_NET
+T_32_26_wire_logic_cluster/lc_0/out
+T_33_26_lc_trk_g0_0
+T_33_26_wire_io_cluster/io_0/D_OUT_0
+
+T_32_26_wire_logic_cluster/lc_0/out
+T_32_22_sp12_v_t_23
+T_33_22_span12_horz_0
+T_33_22_lc_trk_g0_0
+T_33_22_wire_io_cluster/io_0/D_OUT_0
+
+T_32_26_wire_logic_cluster/lc_0/out
+T_32_22_sp12_v_t_23
+T_32_26_sp4_v_t_41
+T_33_30_span4_horz_4
+T_33_30_lc_trk_g0_4
+T_33_30_wire_io_cluster/io_0/D_OUT_0
+
+End 
+

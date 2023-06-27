@@ -1,0 +1,5 @@
+OUTPUT bit3 	 location (33, 27, 1) 	 E14 	 
+OUTPUT bit1 	 location (33, 31, 0) 	 D14 	 
+OUTPUT bit4 	 location (33, 22, 0) 	 F15 	 
+OUTPUT bit2 	 location (33, 26, 0) 	 D15 	 
+OUTPUT bit0 	 location (33, 30, 0) 	 B16 	 

@@ -1,0 +1,13 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt   -part iCE40HX8K  -package CT256    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\report\dac_premap.xml  -oedif  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.edf  -conchk_prepass  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac_cck.rpt   -autoconstraint  -freq 1.000   C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_prem.srd  -qsap  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.sap  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -ologparam  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\syntmp\dac.plg  -osyn  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_prem.srd  -prjdir  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\  -prjname  dac_syn  -log  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\dac_premap.srr 
+rc:0 success:1 runtime:1
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.edf|io:o|time:0|size:0|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac_cck.rpt|io:o|time:1687831647|size:1983|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_mult.srs|io:i|time:1687831647|size:1219|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_prem.srd|io:o|time:1687831647|size:1327|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.sap|io:o|time:1687831648|size:113|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1680399814|size:224837|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\syntmp\dac.plg|io:o|time:1687831647|size:0|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_prem.srd|io:o|time:1687831647|size:1327|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\dac_premap.srr|io:o|time:1687831648|size:2949|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1680399810|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1680399812|size:32355840|exec:1

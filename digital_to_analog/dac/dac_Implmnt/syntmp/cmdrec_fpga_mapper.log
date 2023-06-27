@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt   -part iCE40HX8K  -package CT256    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\report\dac_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.edf   -autoconstraint  -freq 1.000   C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_prem.srd  -sap  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.sap  -otap  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.tap  -omap  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.map  -devicelib  C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v  -sap  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.sap  -ologparam  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\syntmp\dac.plg  -osyn  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.srm  -prjdir  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\  -prjname  dac_syn  -log  C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\dac_fpga_mapper.srr 
+rc:0 success:1 runtime:1
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.edf|io:o|time:1687831649|size:5382|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synwork\dac_prem.srd|io:i|time:1687831647|size:1327|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.sap|io:o|time:1687831648|size:113|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.tap|io:o|time:0|size:0|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.map|io:o|time:1687831649|size:28|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v|io:i|time:1680399814|size:224837|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.sap|io:o|time:1687831648|size:113|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\syntmp\dac.plg|io:o|time:1687831649|size:212|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\dac.srm|io:o|time:1687831648|size:6274|exec:0
+file:C:\rohankarunaratne\LatticeSemi\digital_to_analog\dac\dac_Implmnt\synlog\dac_fpga_mapper.srr|io:o|time:1687831649|size:7277|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\m_generic.exe|io:i|time:1680399810|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\m_generic.exe|io:i|time:1680399812|size:32355840|exec:1
