@@ -4,3 +4,6 @@
 
 # 1. Nightrider LED Pattern
 # 2. Reading from Encoder
+# 3. Digital to Analog Converter
+# 4. UART Interface
+4a. UART Echo (sends recieve to transmit)
