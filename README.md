@@ -2,12 +2,9 @@
 
 ## Example Code for use with Lattice Ice40HX8K FPGA developed by Lattice Semiconductor</h2>
 
-<ol>
-  <li><a href="nightrider_led_pattern">Nightrider LED Pattern</a></li>
-  <li><a href="encoder">Reading from Encoder</a></li>
-  <li><a href="encoder">Digital to Analog Converter</a></li>
-  <li><a href="UART">UART</a><ul>
-      <li><a href="UART/UART Echo">UART Echo</a></li>
-      <li><a href="">Midpoint Sampling</a></li>
-  </ul></li>
-</ol>
+1. [Nightrider LED Pattern](nightrider_led_pattern)
+2. [Reading from Encoder](encoder)
+3. [Digital to Analog Converter](digital_to_analog)
+4. [UART](UART)
+* [UART Echo](UART/UART_Echo)
+* [Midpoint Sampling](UART)
