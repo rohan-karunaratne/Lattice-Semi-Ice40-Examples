@@ -1,0 +1,22 @@
+set_io hwclk J3
+set_io reset N11
+
+set_io led1 B5
+set_io led2 B4
+set_io led3 A2
+set_io led4 A1
+set_io led5 C5
+set_io led6 C4
+set_io led7 B3
+set_io led8 C3
+
+set_io upButton D16
+set_io downButton F15
+
+set_io rx_data G14
+set_io tx_data J15
+set_io edge_detect F14
+set_io sampling K14
+set_io start_edge B9
+
+set_io baud_rate_cycle M15
